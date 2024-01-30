@@ -2,11 +2,15 @@ import json
 from flask import Flask, request, jsonify
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
+from dotenv import load_dotenv, find_dotenv
 import bcrypt
 import datetime
 import uuid
 from flask_cors import CORS  
 from bson.json_util import dumps
+
+
+load_dotenv(find_dotenv())
 
 
 #connects to database
