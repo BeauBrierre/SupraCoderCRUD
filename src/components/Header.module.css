@@ -1,0 +1,30 @@
+.baseHeader {
+    width: 100%;
+    position: relative;
+    background-color: #1A1919;
+    height: 5rem;
+}
+
+.text {
+    color: #aaa9a4;
+    font-weight: bold;
+    position: absolute;
+    padding: 0.5rem;
+    padding-left: 2rem; 
+    cursor:pointer;
+    font-size: xxx-large;
+    margin: 0;
+}
+
+.textRight {
+    color: #aaa9a4;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    padding: .5rem;
+    padding-right: 2rem;
+    cursor:pointer;
+    font-size: xxx-large;
+    margin: 0;
+}
+ 
